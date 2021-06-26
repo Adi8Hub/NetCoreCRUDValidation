@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAd+asrr/EyE+1WdGfkQOLXQAAAAACAAAAAAAQZgAAAAEAACAAAABkD/OZAc0jU1Up3YYW1IE2k7k+8tE2QwZmiqeBIjpGvgAAAAAOgAAAAAIAACAAAABlfLhjv1Xg3MXwv6QWnJOuFoWJqZrFsLsrE6p2zlbWdIAAAACbIV7YvK1hDRy0RGHZxzHvd89AfNQsQZ0acO9YisBiOXbC92Pvo2NIWv10ZlojDla1BS3LPPVBTdz4AdTcKHSLnPDA4Rcb9C25r+eLjkbrmUV8pzdtrZFh2jCfi8W/JDViSrb7PkLBNUQtGMmB1SqYEDQFmkXyckwO61uM7PX3ckAAAAAQr9jfDo4/qDaB53zmGxGYk2WlGg0RWYZSpLikvP/ZAIOzeVlmKkB5sJImDvAImlXurjaycRm6Ek8Y7Vsvidog</EncryptedPassword>
+    <History>True|2021-06-15T13:04:08.5491230Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:rocky-dbserver.database.windows.net,1433%3bInitial Catalog=RockyCRUD_db%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=Sa#12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Rocky.Data.ApplicationDbContext">
+      <Value>Server=tcp:rocky-dbserver.database.windows.net,1433%3bInitial Catalog=RockyCRUD_db%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=Sa#12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
